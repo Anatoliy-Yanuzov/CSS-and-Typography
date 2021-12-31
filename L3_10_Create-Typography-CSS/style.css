@@ -1,0 +1,52 @@
+html {
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5rem;
+  margin: 4rem;
+}
+.heading {
+  font-family: Georgia, serif;
+}
+.square {
+  list-style-type: square;
+}
+.disk {
+  list-style-type: disc;
+}
+.circle {
+  list-style-type: circle;
+}
+table {
+  width: 70rem;
+  text-align: left;
+}
+thead tr {
+  text-align: left;
+  background-color: rgb(221, 221, 221);
+}
+tbody tr:nth-child(2n + 1) {
+  background-color: rgb(241, 241, 241);
+}
+tr:nth-child(2n + 1) td {
+  background-color: rgb(241, 241, 241);
+}
+table,
+td,
+th {
+  border-width: 1px;
+  border-color: rgb(221, 221, 221);
+  border-style: solid;
+}
+tbody tr:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+blockquote {
+  font-style: italic;
+  border-left: 4px solid rgb(221, 221, 221);
+  margin: 3em 25px;
+  padding: 1px 25px;
+}
+#end {
+  text-align: right;
+}

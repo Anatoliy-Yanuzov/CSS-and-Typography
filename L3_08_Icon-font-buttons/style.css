@@ -1,0 +1,22 @@
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+
+body{
+    margin: 60px;
+}
+a{
+    display: block;
+    width: fit-content;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+    padding: 8px 10px;
+    margin: 5px 5px;
+    margin-bottom: 20px;
+}
+#click {
+  background: rgb(0, 128, 0);
+}
+#mail {
+  background: rgb(255, 140, 0);
+}
